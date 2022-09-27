@@ -26,8 +26,8 @@ int WINAPI WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLine
 		ClearDrawScreen();
 
 		DrawString(20, 30, "●gitのテスト West", GetColor(255, 255, 255));
-		DrawLine(10, 100, 90, 100, GetColor(255, 255, 255));
 		DrawString(20, 60, "●◆▲", GetColor(255, 255, 255));
+		DrawLine(10, 100, 90, 100, GetColor(255, 255, 255));
 		//★裏画面を表画面と入れ替える
 		ScreenFlip();
 		//escキーを押したら終了する
